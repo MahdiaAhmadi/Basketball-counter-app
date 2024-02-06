@@ -1,2 +1,1 @@
-# Basketball-counter-app
-This app count the number of players and Guests.
+You can see this app by clicking the following link: 

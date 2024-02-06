@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-image: url(bs-logo.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 575px;
+  height: 375px;
+  background-color: #1b244a;
+  color: #ffffff;
+  margin: 110px auto;
+  margin-bottom: 20px;
+}
+
+#title-el {
+  width: 149px;
+  height: 36px;
+  top: 68px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eeeeee;
+  text-shadow: 0px 0px 1px black;
+}
+
+.home-el {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  left: 82px;
+  top: 125px;
+  border-radius: 10px;
+  margin: auto;
+  color: #f94f6d;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  left: 355px;
+  top: 125px;
+
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+
+  text-align: center;
+
+  color: #f94f6d;
+}
+#score-counter {
+  width: 155px;
+  height: 45px;
+
+  margin-top: 40px;
+}
+.btn {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL";
+  font-size: 20px;
+  font-weight: bolder;
+  background: inherit;
+  color: #9aabd8;
+  padding: 5px;
+  text-align: center;
+  margin-right: 3px;
+}
+.btn-1 {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL";
+  font-size: 20px;
+  font-weight: bolder;
+  background: inherit;
+  color: #9aabd8;
+  padding: 5px;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: 3px;
+}
+
+.footer {
+  text-align: center;
+}
+#rest-el {
+  color: #31572c;
+  font-size: 25px;
+  text-shadow: 0px 0px 2px black;
+  font-weight: bolder;
+}
+
+#rest-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: -10px;
+  width: 80px;
+  background-color: #f94f6d;
+  color: #ffffff;
+  text-shadow: 0px 0px 1px black;
+}
+#rest-btn:hover {
+  background-color: #d80032;
+}

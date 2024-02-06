@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="title-el">
+        <h3 id="title-el">PLAYER</h3>
+        <input type="text" class="home-el" id="home-score-1" value="0" />
+        <div id="score-counter">
+          <button class="btn-1" onclick=" plusPoint1() ">+1</button>
+          <button class="btn-1" onclick="plusPoint2()">+2</button>
+          <button class="btn-1" onclick="plusPoint3()">+3</button>
+        </div>
+      </div>
+      <div>
+        <h3 id="title-el">GUEST</h3>
+        <input type="text" class="home-el" id="home-score-2" value="0" />
+        <div id="score-counter">
+          <button class="btn" onclick=" plusPoint_1() ">+1</button>
+          <button class="btn" onclick=" plusPoint_2() ">+2</button>
+          <button class="btn" onclick=" plusPoint_3() ">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of main container -->
+    <div class="footer">
+      <p id="rest-el">You can rest the screen by clicking the Rest Button:</p>
+      <button id="rest-btn" onclick="rest()">Rest</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
